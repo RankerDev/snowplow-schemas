@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "title": "ranker_list",
+  "description": "Ranker List Facts",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "list_id": {
+      "type": "integer"
+    },
+    "format": {
+      "type": "string"
+    },
+    "view_format": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "integer"
+    },
+    "user_type": {
+      "type": "integer"
+    },
+    "class_id": {
+      "type": "integer"
+    },
+    "category_id": {
+      "type": "integer"
+    },
+    "list_type": {
+      "type": "string"
+    },
+    "default_collection_id": {
+      "type": "integer"
+    },
+    "tag_ids": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "internal_tag_ids": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    }
+  }
+}
