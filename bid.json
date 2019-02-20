@@ -20,6 +20,9 @@
     },
     "latency": {
       "type": "integer"
+    },
+    "late" : {
+      "type": "boolean"
     }
   }
 }
