@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "title": "display_bids",
+  "description": "Header Bidder Display Bids",
+  "properties": {
+    "advertiser": {
+      "type": "string"
+    },
+    "slot": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "bid": {
+      "type": "number"
+    },
+    "auction_idx": {
+      "type": "integer"
+    },
+    "latency": {
+      "type": "integer"
+    }
+  }
+}
